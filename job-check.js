@@ -6,7 +6,7 @@ const { chromium } = require('playwright');
 
   // Construct Basic Auth header: "Basic base64(username:password)"
   // Replace with your actual username and password:
-  const username = '7c6fb4aadb97542cf8ab2b92ddd8cca221d42ceeab2d4b77fbaa419feac0b824';    // API Key
+  const username = '***********************************************************';    // API Key
   const password = '';
   const basicAuth = 'Basic ' + Buffer.from(`${username}:${password}`).toString('base64');
 
